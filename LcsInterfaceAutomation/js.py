@@ -1,6 +1,7 @@
 #coding=utf-8
 import os,subprocess
 from subprocess import Popen,PIPE
+import requests
 
 
 # 执行本地的js
@@ -16,3 +17,5 @@ if(p.returncode == 0):
 
 
 
+
+    、
