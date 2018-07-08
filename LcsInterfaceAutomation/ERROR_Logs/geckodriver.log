@@ -1,0 +1,31 @@
+1510381361418	geckodriver	INFO	Listening on 127.0.0.1:64630
+1510381363450	mozprofile::profile	INFO	Using profile path C:\Users\john\AppData\Local\Temp\rust_mozprofile.Hirl5rOYn9KP
+1510381363465	geckodriver::marionette	INFO	Starting browser D:\firefox.exe
+1510381363484	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64636
+1510381364387	Marionette	INFO	Listening on port 64636
+[Parent 11116] WARNING: Failed to launch tab subprocess: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/GeckoChildProcessHost.cpp, line 572
+[Parent 11116] WARNING: Failed to launch tab subprocess: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/GeckoChildProcessHost.cpp, line 572
+1510381365533	Marionette	INFO	startBrowser 590c92fe-3f78-4d1d-9149-eb4d2fa98c01
+[Parent 11116] WARNING: Failed to launch tab subprocess: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/GeckoChildProcessHost.cpp, line 572
+[Parent 11116] WARNING: Failed to launch tab subprocess: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/GeckoChildProcessHost.cpp, line 572
+*************************
+A coding exception was thrown in a Promise resolution callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: frameLoader.tabParent is null
+Full stack: set_docShellIsActive@chrome://global/content/bindings/remote-browser.xml:260:13
+updateBrowserRemoteness@chrome://browser/content/tabbrowser.xml:1600:1
+updateBrowserRemotenessByURL@chrome://browser/content/tabbrowser.xml:1665:22
+SessionStoreInternal.restoreTabContent@resource:///modules/sessionstore/SessionStore.jsm:3359:30
+restoreTab@resource:///modules/sessionstore/SessionStore.jsm:3316:7
+navigateAndRestore/<@resource:///modules/sessionstore/SessionStore.jsm:2567:7
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+
+*************************
+JavaScript error: chrome://global/content/bindings/remote-browser.xml, line 338: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]
+JavaScript error: chrome://global/content/bindings/remote-browser.xml, line 338: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]
+JavaScript error: chrome://global/content/bindings/remote-browser.xml, line 338: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]
+JavaScript error: chrome://global/content/bindings/remote-browser.xml, line 338: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]
+JavaScript error: resource://app/modules/sessionstore/TabStateFlusher.jsm, line 89: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]

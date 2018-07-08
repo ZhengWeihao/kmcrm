@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>旺店交易</title>
+    <script type="text/javascript">window.URL_MAP={
+  "/assets/img/1_05.png": "/assets/img/1_05.png",
+  "/assets/img/index-tradeMgr-nav.png": "/assets/img/index-tradeMgr-nav.png",
+  "/assets/img/sprite_06.png": "/assets/img/sprite_06.png",
+  "chunk.css": "assets/chunk_6db0.css",
+  "chunk.js": "assets/chunk_6db0.js",
+  "cplj.js": "assets/cplj_4300.js",
+  "ddfh.js": "assets/ddfh_4544.js",
+  "jygl.js": "assets/jygl_a289.js",
+  "mall.js": "assets/mall_b49a.js",
+  "note.js": "assets/note_749a.js",
+  "rate.js": "assets/rate_4488.js",
+  "setting.js": "assets/setting_b1f4.js"
+}</script></head>
+    <script type="text/javascript">
+        var env = window.URL_MAP_G ? 'greyVersion' : 'dist';
+    </script>
+    <body class="sui-form white-background" style="margin: 0;">
+        <!-- <object width="0" height="0" style="position:absolute;left:0px;top:-100px;width:0px;height:0px;" type="application/x-print-lodop" id="LODOP">
+            <param name="CompanyName" value="杭州光云软件技术有限公司" />
+            <param name="License" value="964587775717383919278901905623" />
+            </object> -->
+            <div class="index-loading">
+                <div class="loading-wrap">
+                    <img class="loading-text" src="https://img.alicdn.com/imgextra/i4/381696371/TB21JIunVXXXXarXXXXXXXXXXXX-381696371.png" alt="开网店，用旺店">
+                    <img class="loading-human" src="https://img.alicdn.com/imgextra/i4/381696371/TB2FOL3nVXXXXbpXpXXXXXXXXXX-381696371.png" alt="开网店，用旺店">
+                    <div class="loading-random loading-text1"></div>
+                    <div class="loading-random loading-text2"></div>
+                    <img class="loading-loading" src="https://img.alicdn.com/imgextra/i1/381696371/TB2UxCGppXXXXXfXpXXXXXXXXXX-381696371.png">
+                    <img class="loading-type" src="https://img.alicdn.com/imgextra/i3/381696371/TB2kjkenVXXXXajXpXXXXXXXXXX-381696371.png">
+                </div>
+            </div>
+            <div id="J_app-main-page" class="main-page" style="margin-top:-10px;display: none;">
+                <div id="qn-widget-head" class="site-header sui-navbar navbar-fixed-top" style=" z-index: 100;"></div>
+            <div id="container" class="site-container"></div>
+            <div id="footer" class="site-footer"></div>
+            <!-- FIXME 这里是为了处理顶部tab一半消失，掉到底部的问题。这里只是一个hack方案，具体产生原因未知 -->
+            <div style="position:fixed;height:21px;bottom:0;left:0;right:0;z-index: 1;background-color: transparent;"></div>
+        </div>
+        <style type="text/css">
+            #J_Insufficient-user-permissions {position: absolute;left: 0;right: 0;top: 0;bottom: 30px;display: none;}
+            #J_Insufficient-user-permissions .warn-tips {width: 452px;height: 143px;background: url(resources/images/authority_limit.png) no-repeat;overflow: hidden;position: absolute;left: -webkit-calc(50% - 276px);top: -webkit-calc(50% - 72px);}
+            #J_Insufficient-user-permissions .warn-tips a {display: block;width: 192px;height: 33px;background: url(resources/images/authority_limit.png) 0 -147px no-repeat;margin: 88px 0 0 150px;}
+        </style>
+        <div id="J_Insufficient-user-permissions">
+            <div class="warn-tips">
+                <a href="https://bangpai.taobao.com/group/thread/14029513-292938954.htm?spm=0.0.0.0.ooizay" target="_blank">&nbsp;</a>
+            </div>
+        </div>
+        <script>
+            (function(){
+                if(window.URL_MAP){
+                    document.write('<link href="/'+ env +'/'+window.URL_MAP['chunk.css']+'" type="text/css" rel="stylesheet">')
+                }
+                if(window.URL_MAP_G){
+                    document.write('<link href="/'+ env +'/'+window.URL_MAP_G['chunk.css']+'" type="text/css" rel="stylesheet">')
+                }
+                if(!window.URL_MAP_G && !window.URL_MAP){
+                    document.write('<link href="/' + env +'/assets/chunk.css" type="text/css" rel="stylesheet">')
+                }
+            })()
+                document.addEventListener('DOMContentLoaded',function(){
+                    console.log('加载完成dom');
+                    var domHead = document.getElementsByTagName('head')[0];
+                    var suicss = document.createElement('link');
+                        suicss.href='https://g.alicdn.com/sj/qnui/1.3.0/css/sui.min.css';suicss.type="text/css";suicss.rel="stylesheet";
+                    var extendcss = document.createElement('link');
+                        extendcss.href="https://static2.superboss.cc/extend.css";extendcss.type="text/css";extendcss.rel="stylesheet";
+                    domHead.appendChild(suicss);
+                    domHead.appendChild(extendcss);
+                    var _asyncScript = function(src, cb) {
+                        var body = document.getElementsByTagName('body')[0];
+                        var s = document.createElement('script');
+                        s.src = src;
+                        s.async = 'async';
+                        s.onload = function() {
+                            cb && cb();
+                        };
+                        body.appendChild(s);
+                    };
+
+                    var asyncScript = function(src, cb) {
+                        if(typeof src == 'string') {
+                            _asyncScript(src, cb);
+                            return;
+                        }
+                        var _num = 0;
+                        var _len = src.length;
+                        var _cb = function() {
+                            _num++;
+                            if(_num >= _len) {
+                                cb && cb();
+                            }
+
+                        }
+                        src.forEach(function(val) {
+                            _asyncScript(val, _cb);
+                        })
+                    }
+
+                    asyncScript(['https://g.alicdn.com/sj/lib/jquery.min.js', 'https://g.alicdn.com/sj/qn/jssdk.js'], function() {
+                    // asyncScript(['https://g.alicdn.com/sj/lib/jquery.min.js', 'https://g.alicdn.com/qn/qn-proxy-server/0.1.21/dev.js'], function() {
+                        asyncScript([
+                            '//g.alicdn.com/sj/qnui/1.3.0/js/sui.min.js',
+                            '/' + env + '/framework/tatami-v2.min.js',
+                            '/' + env + '/framework/dragresize.js',//电子面单编辑拖拽用到此插件
+                            '/'+ env +'/framework/async.js',//文件中经常有async.await这样的调用，调用此文件
+                            '/' + env +'/framework/highcharts.js'
+                        ], function() {
+                            asyncScript(['/'+ env +'/framework/Tatami.onpageload.js','/' + env +'/framework/secret.js', '/' + env + '/framework/calendar.js'], function() {
+                                if(window.URL_MAP){
+                                    asyncScript('/'+ env +'/'+window.URL_MAP['chunk.js']+'',function(){});
+                                }
+                                if(window.URL_MAP_G){
+                                    asyncScript('/'+ env +'/'+window.URL_MAP_G['chunk.js']+'',function(){});
+                                }
+                                if(!window.URL_MAP_G && !window.URL_MAP){
+                                    asyncScript('/' + env + '/assets/chunk.js',function(){});
+                                }
+                            })
+                        })
+                    })
+                })
+        </script>
+
+    </body>
+</html>
